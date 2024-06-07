@@ -1,0 +1,33 @@
+<!DOCTYPE >
+
+<head>
+ <link rel="stylesheet" href="index.css">
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[conic-gradient(#33FF96,#FF9333,#339FFF)]">
+  
+  <div id= "main" class="h-5/3 backdrop-blur-md bg-black/30 mx-auto w-2/4 my-12 rounded-2xl text-center">
+    <div class="text-center my-5 font-serif text-3xl font-bold py-5 text-black">
+      Welcome to number guessing game 
+   </div>
+  <h1 class="mx-4 font-serif font-bold text-lg  text-black ">Enter your name</h1>
+  <label class="relative block w-72 mx-auto place-content-center my-3">
+    <span class="sr-only">Ex: Ali</span>
+    <span class="absolute  flex items-center pl-2">
+    </span>
+    <input id= "box-1"class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Ex: Ali" type="text" name="search"/>
+  </label>
+  <h1 class="mx-4 font-serif font-bold text-lg text-black my-5">Choose a number between 1 to 10</h1>
+  <label class="relative block w-72 mx-auto place-content-center my-3">
+    <span class="sr-only">Ex: 1</span>
+    <span class="absolute  flex items-center pl-2">
+    </span>
+    <input id="box-2" class="placeholder:italic placeholder:text-slate-400 block  bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Ex: 1" type="text" name="search"/>
+  </label>
+  <button class="mx-28 my-5 bg-orange-600 rounded-2xl  h-10 text-center w-28 hover:bg-orange-400 font-serif font-bold" onclick="checkGuess()">Guess</button>
+</div>
+  <div id="answer" class=" my-2 mx-auto rounded-2xl text-center  text-2xl font-bold " >
+  </div>
+<script src="index.js"></script>       
+       
+</body>

@@ -1,0 +1,47 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  /* Desktop view */
+  @media (min-width: 768px) {
+    .w-2 {
+      width: 50%; 
+    }
+    .mx-40 {
+      margin-left: auto;
+      margin-right: auto; 
+    }
+  }
+  
+  /* Tablet view */
+  @media (max-width: 767px) {
+    .w-2 {
+      width: 80%; 
+    }
+    .mx-40 {
+      margin-left: auto;
+      margin-right: auto; 
+    }
+  }
+  
+  
+  @media (max-width: 479px) {
+    /* Adjustments for phone view */
+    .w-2 {
+      width: 90%; 
+    }
+    .mx-40 {
+      margin-left: auto;
+      margin-right: auto; 
+    }
+   
+    .h-5{
+      height: 200px; 
+    }
+  }
+  
+  
+  
+  
+
